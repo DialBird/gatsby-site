@@ -14,6 +14,7 @@ module.exports = {
         stages: ['develop'],
       },
     },
+    'gatsby-plugin-root-import',
     'gatsby-plugin-typescript',
   ],
 }
