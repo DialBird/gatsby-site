@@ -1,5 +1,9 @@
 import React from 'react'
 
-export default function Header() {
-  return <h1>This is a header</h1>
+interface HeaderProps {
+  text: string
+}
+
+export const Header = ({ text }: HeaderProps) => {
+  return <h1>{text}</h1>
 }
